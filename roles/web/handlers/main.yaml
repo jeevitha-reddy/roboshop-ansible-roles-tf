@@ -1,0 +1,5 @@
+- name: Restart nginx # any updates happened it will call for restart 
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+    enabled: yes

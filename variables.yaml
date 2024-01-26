@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.devrobo.shop
+REDIS_HOST: redis.devrobo.shop
+MYSQL_HOST: mysql.devrobo.shop
+RABBITMQ_HOST: rabbitmq.devrobo.shop
+CATALOGUE_HOST: catalogue.devrobo.shop
+USER_HOST: user.devrobo.shop
+CART_HOST: cart.devrobo.shop
+SHIPPING_HOST: shipping.devrobo.shop
+PAYMENT_HOST: payment.devrobo.shop
+DISPATCH_HOST: dispatch.devrobo.shop

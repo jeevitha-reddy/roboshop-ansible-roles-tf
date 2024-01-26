@@ -1,0 +1,8 @@
+- name: "install {{component}}" #i am creating one variable in that passing values
+  hosts: "{{component}}"
+  vars_files:
+  - variables.yaml
+  become: yes
+  roles:
+  - "{{component}}"
+  
