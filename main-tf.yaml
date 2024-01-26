@@ -1,5 +1,6 @@
 - name: "install {{component}}" #i am creating one variable in that passing values
-  hosts: "{{component}}"
+  hosts: localhost
+  connection: local
   vars_files:
   - variables-{{env}}.yaml
   become: yes
