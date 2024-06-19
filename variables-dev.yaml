@@ -8,3 +8,5 @@ CART_HOST: cart.app-dev.devrobo.shop
 SHIPPING_HOST: shipping.app-dev.devrobo.shop
 PAYMENT_HOST: payment.app-dev.devrobo.shop
 DISPATCH_HOST: dispatch.app-dev.devrobo.shop
+NEXUS_URL: http://172.31.5.95:8081/repository #this is for nexus 
+group_id: "com/roboshop"
